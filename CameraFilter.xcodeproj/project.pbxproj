@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B122EA227DC9CC6004737CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B122EA127DC9CC6004737CA /* AppDelegate.swift */; };
+		7B122EA427DC9CC6004737CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B122EA327DC9CC6004737CA /* SceneDelegate.swift */; };
+		7B122EA627DC9CC6004737CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B122EA527DC9CC6004737CA /* ViewController.swift */; };
+		7B122EA927DC9CC6004737CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B122EA727DC9CC6004737CA /* Main.storyboard */; };
+		7B122EAB27DC9CC8004737CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B122EAA27DC9CC8004737CA /* Assets.xcassets */; };
+		7B122EAE27DC9CC8004737CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B122EAC27DC9CC8004737CA /* LaunchScreen.storyboard */; };
+		7B122EB627DC9EB9004737CA /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B122EB527DC9EB9004737CA /* PhotoCollectionViewController.swift */; };
+		7B71FE4427EED40200E0FE8F /* PhotoCollectionViewCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71FE4327EED40200E0FE8F /* PhotoCollectionViewCelll.swift */; };
+		7B71FE4627F0204C00E0FE8F /* FiltersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71FE4527F0204C00E0FE8F /* FiltersService.swift */; };
+		7B71FE4927F03BF000E0FE8F /* cameraFilter.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B71FE4827F03BF000E0FE8F /* cameraFilter.gif */; };
+		C036AFAB200619D26860854B /* Pods_CameraFilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1537724A577C49E6915EE594 /* Pods_CameraFilter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1537724A577C49E6915EE594 /* Pods_CameraFilter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CameraFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFEB825A7277AE17A986A46 /* Pods-CameraFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.debug.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.debug.xcconfig"; sourceTree = "<group>"; };
+		7B122E9E27DC9CC6004737CA /* CameraFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B122EA127DC9CC6004737CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B122EA327DC9CC6004737CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B122EA527DC9CC6004737CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B122EA827DC9CC6004737CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B122EAA27DC9CC8004737CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B122EAD27DC9CC8004737CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B122EAF27DC9CC8004737CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B122EB527DC9EB9004737CA /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		7B71FE4327EED40200E0FE8F /* PhotoCollectionViewCelll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCelll.swift; sourceTree = "<group>"; };
+		7B71FE4527F0204C00E0FE8F /* FiltersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersService.swift; sourceTree = "<group>"; };
+		7B71FE4827F03BF000E0FE8F /* cameraFilter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cameraFilter.gif; sourceTree = "<group>"; };
+		8E4746100F4366F134495119 /* Pods-CameraFilter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CameraFilter.release.xcconfig"; path = "Target Support Files/Pods-CameraFilter/Pods-CameraFilter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B122E9B27DC9CC6004737CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C036AFAB200619D26860854B /* Pods_CameraFilter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4949BAC3D1E9CFE109305297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1537724A577C49E6915EE594 /* Pods_CameraFilter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B122E9527DC9CC6004737CA = {
+			isa = PBXGroup;
+			children = (
+				7B71FE4727F03B6900E0FE8F /* Gif */,
+				7B122EA027DC9CC6004737CA /* CameraFilter */,
+				7B122E9F27DC9CC6004737CA /* Products */,
+				DD1F608538E907B9A6A770A9 /* Pods */,
+				4949BAC3D1E9CFE109305297 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B122E9F27DC9CC6004737CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B122E9E27DC9CC6004737CA /* CameraFilter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B122EA027DC9CC6004737CA /* CameraFilter */ = {
+			isa = PBXGroup;
+			children = (
+				7B122EA127DC9CC6004737CA /* AppDelegate.swift */,
+				7B122EA327DC9CC6004737CA /* SceneDelegate.swift */,
+				7B122EB527DC9EB9004737CA /* PhotoCollectionViewController.swift */,
+				7B122EA527DC9CC6004737CA /* ViewController.swift */,
+				7B71FE4327EED40200E0FE8F /* PhotoCollectionViewCelll.swift */,
+				7B122EA727DC9CC6004737CA /* Main.storyboard */,
+				7B122EAA27DC9CC8004737CA /* Assets.xcassets */,
+				7B122EAC27DC9CC8004737CA /* LaunchScreen.storyboard */,
+				7B122EAF27DC9CC8004737CA /* Info.plist */,
+				7B71FE4527F0204C00E0FE8F /* FiltersService.swift */,
+			);
+			path = CameraFilter;
+			sourceTree = "<group>";
+		};
+		7B71FE4727F03B6900E0FE8F /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				7B71FE4827F03BF000E0FE8F /* cameraFilter.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		DD1F608538E907B9A6A770A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEB825A7277AE17A986A46 /* Pods-CameraFilter.debug.xcconfig */,
+				8E4746100F4366F134495119 /* Pods-CameraFilter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B122E9D27DC9CC6004737CA /* CameraFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B122EB227DC9CC8004737CA /* Build configuration list for PBXNativeTarget "CameraFilter" */;
+			buildPhases = (
+				3CC5390ECF4ABF5200702369 /* [CP] Check Pods Manifest.lock */,
+				7B122E9A27DC9CC6004737CA /* Sources */,
+				7B122E9B27DC9CC6004737CA /* Frameworks */,
+				7B122E9C27DC9CC6004737CA /* Resources */,
+				A49DDAC0E05C22D68487CFFB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraFilter;
+			productName = CameraFilter;
+			productReference = 7B122E9E27DC9CC6004737CA /* CameraFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B122E9627DC9CC6004737CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7B122E9D27DC9CC6004737CA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7B122E9927DC9CC6004737CA /* Build configuration list for PBXProject "CameraFilter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B122E9527DC9CC6004737CA;
+			productRefGroup = 7B122E9F27DC9CC6004737CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B122E9D27DC9CC6004737CA /* CameraFilter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B122E9C27DC9CC6004737CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B122EAE27DC9CC8004737CA /* LaunchScreen.storyboard in Resources */,
+				7B122EAB27DC9CC8004737CA /* Assets.xcassets in Resources */,
+				7B122EA927DC9CC6004737CA /* Main.storyboard in Resources */,
+				7B71FE4927F03BF000E0FE8F /* cameraFilter.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CC5390ECF4ABF5200702369 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraFilter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49DDAC0E05C22D68487CFFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CameraFilter/Pods-CameraFilter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B122E9A27DC9CC6004737CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B122EA627DC9CC6004737CA /* ViewController.swift in Sources */,
+				7B122EA227DC9CC6004737CA /* AppDelegate.swift in Sources */,
+				7B71FE4427EED40200E0FE8F /* PhotoCollectionViewCelll.swift in Sources */,
+				7B71FE4627F0204C00E0FE8F /* FiltersService.swift in Sources */,
+				7B122EA427DC9CC6004737CA /* SceneDelegate.swift in Sources */,
+				7B122EB627DC9EB9004737CA /* PhotoCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B122EA727DC9CC6004737CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B122EA827DC9CC6004737CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B122EAC27DC9CC8004737CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B122EAD27DC9CC8004737CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B122EB027DC9CC8004737CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B122EB127DC9CC8004737CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B122EB327DC9CC8004737CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFEB825A7277AE17A986A46 /* Pods-CameraFilter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F7BXCAFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraFilter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithkyo.CameraFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B122EB427DC9CC8004737CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4746100F4366F134495119 /* Pods-CameraFilter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F7BXCAFA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraFilter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codewithkyo.CameraFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B122E9927DC9CC6004737CA /* Build configuration list for PBXProject "CameraFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B122EB027DC9CC8004737CA /* Debug */,
+				7B122EB127DC9CC8004737CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B122EB227DC9CC8004737CA /* Build configuration list for PBXNativeTarget "CameraFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B122EB327DC9CC8004737CA /* Debug */,
+				7B122EB427DC9CC8004737CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B122E9627DC9CC6004737CA /* Project object */;
+}
